@@ -1,0 +1,27 @@
+{
+  "name": "vite-plugin-remote-assets-ssg",
+  "version": "0.1.0",
+  "description": "pull remote assets and optimize them for prerendering (ssg) builds where you may not know image urls before the render.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remote",
+    "assets",
+    "vite",
+    "ssg",
+    "static",
+    "site",
+    "generation"
+  ],
+  "author": "Jacob Milhorn",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.15.3",
+    "fdir": "^6.0.1",
+    "file-type": "^18.2.1",
+    "nanoid": "^4.0.1",
+    "sharp": "^0.31.3"
+  }
+}
